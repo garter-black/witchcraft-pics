@@ -1,0 +1,11 @@
+## Verified expansion — 13 October 2026 12h AEDT
+
+The original 40-URL scope below is historical. The live registry now enumerates **48 URLs**, with a final **100/100** identity audit. Studio `/credits`, `/free-access` and `/owner` now render the shared Butterfly legal identity; `/prompts` was added to monitoring alongside the roots. All five paths on both witchcraft.pics and witchcraft.video were inspected at actual 390px and 1440px widths. Ten fresh mobile DOM/screenshot observations were registered; the alias uses the video-root receipt.
+
+Active Studio version: `215b7c43-d288-4238-aa27-d27ab3c396f8`, derived from the current `1f988c25-dbac-4635-9340-ebe24bca8996` baseline. Exact Worker modules, bindings, runtime and settings were preserved. The identity-only asset change retains the newer owner-session fix and unrelated shared-source work. Isolated baseline output matched all 27 prior inventory files; the reviewed candidate contains 26 upload assets plus the unchanged headers module. Source integration was limited to studio-shell.tsx and witchcraft.css after all 143 captured inputs were checked unchanged.
+
+Evidence: [12h report](C:/Hecate-Umbra/work/grants-20261013-1200/REPORT.md), release-readback.json, LIVE-VERIFIED-CHECKS.json and FINAL-IDENTITY-AUDIT.json in that directory. The first live capture series had intended dimensions without actual-tab assertions; it is retained but excluded from responsive claims. Corrected evidence asserts actual viewport and full legal-text visibility on every page. Existing root/prompt legal typography remains 8px on mobile; the newly repaired standalone footers are 12px. This bounded identity release does not certify the complete product, all wildcard paths, grant eligibility or percentile quality.
+
+The existing daily automation remains the sole owner. DAILY-AUDIT-INSTRUCTIONS.md now requires every current rendered registry target, actual viewport assertions when dimensions are claimed, fresh evidence and a final passing audit. No new scheduler or permission change was made. Privileged bypass limitations below remain.
+
+This follow-up changes legal-footer assets only. The v0.02 input/owner/seed report remains the source for earlier functional tests and limitations. No generation or payment was tested in this increment.

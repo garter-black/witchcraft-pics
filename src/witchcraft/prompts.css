@@ -1,0 +1,49 @@
+/* Prompt gallery — monochrome editorial, matching the studio's masthead type
+   and hairlines. Cards are typographic; no card shows a generated image. */
+
+.wc-gallery{flex:1;min-height:0;overflow:auto;padding:34px 40px 60px;scrollbar-width:thin;scrollbar-color:#333 #080808}
+.wc-gallery-head{max-width:760px;margin-bottom:28px}
+.wc-gallery-eyebrow{font-size:8px;letter-spacing:.3em;color:#9a9a9a;margin-bottom:16px}
+.wc-gallery-head h1{font-weight:400;font-size:clamp(30px,3.4vw,52px);letter-spacing:-.045em;line-height:1;margin:0 0 16px}
+.wc-gallery-intro{font-size:11px;line-height:1.8;color:#aaa;margin:0}
+
+.wc-gallery-controls{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-end;justify-content:space-between;border-top:1px solid #242424;border-bottom:1px solid #242424;padding:16px 0;margin-bottom:16px}
+.wc-gallery-search{display:flex;flex-direction:column;gap:7px;flex:1 1 280px;min-width:220px}
+.wc-gallery-search-label{font-size:8px;letter-spacing:.24em;color:#8f8f8f}
+.wc-gallery-search input{background:#0b0b0b;border:1px solid #333;color:#eeeae2;font:inherit;font-size:12px;padding:10px 12px;letter-spacing:.02em}
+.wc-gallery-search input::placeholder{color:#6d6d6d}
+.wc-gallery-search input:focus-visible,.wc-gallery-views button:focus-visible,.wc-gallery-tags button:focus-visible,.wc-card-actions button:focus-visible,.wc-card-fav:focus-visible,.wc-card-tags button:focus-visible,.wc-gallery-nav:focus-visible{outline:2px solid #fff;outline-offset:2px}
+
+.wc-gallery-views{display:flex;gap:22px}
+.wc-gallery-views button{background:none;border:0;color:#898989;font-size:10px;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;padding:11px 0}
+.wc-gallery-views button.active{color:#f1ede5;border-bottom:1px solid #f1ede5}
+
+.wc-gallery-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.wc-gallery-tags button{background:#0d0d0d;border:1px solid #2c2c2c;color:#a6a6a6;font-size:9px;letter-spacing:.12em;padding:6px 11px;cursor:pointer;text-transform:lowercase}
+.wc-gallery-tags button.active{background:#1d1d1d;border-color:#555;color:#fff}
+
+.wc-gallery-notice{border:1px solid #3a3a3a;background:#101010;color:#ddd;font-size:10px;letter-spacing:.08em;padding:10px 14px;margin:0 0 20px}
+.wc-gallery-notice[data-ok="false"]{border-color:#6b4a4a;color:#e7c7c7}
+.wc-gallery-empty{color:#999;font-size:12px;padding:40px 4px}
+
+.wc-gallery-grid{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin:0;padding:0}
+.wc-card{border:1px solid #282828;background:linear-gradient(155deg,#121212,#080808 70%);padding:18px;display:flex;flex-direction:column;gap:12px;transition:border-color .2s}
+.wc-card:hover{border-color:#3d3d3d}
+.wc-card-top{display:flex;align-items:center;justify-content:space-between}
+.wc-card-surface{font-size:8px;letter-spacing:.24em;color:#8f8f8f;border:1px solid #2f2f2f;padding:3px 8px}
+.wc-card-fav{background:none;border:0;color:#7d7d7d;font-size:16px;cursor:pointer;line-height:1;padding:2px 4px}
+.wc-card-fav.active{color:#f1ede5}
+.wc-card-title{font-weight:400;font-size:17px;letter-spacing:-.02em;margin:0}
+.wc-card-prompt{font-size:11px;line-height:1.7;color:#b3b3b3;margin:0;flex:1}
+.wc-card-preset{font-size:8px;letter-spacing:.16em;color:#7d7d7d;text-transform:uppercase;margin:0}
+.wc-card-requires{font-size:9px;line-height:1.5;color:#d8c39a;border-left:2px solid #7a6535;padding:2px 0 2px 9px;margin:0}
+.wc-card-tags{display:flex;flex-wrap:wrap;gap:6px}
+.wc-card-tags button{background:none;border:0;color:#8a8a8a;font-size:8px;letter-spacing:.1em;cursor:pointer;padding:0;text-transform:lowercase}
+.wc-card-tags button:hover{color:#ddd}
+.wc-card-actions{display:flex;gap:10px;border-top:1px solid #242424;padding-top:12px}
+.wc-card-actions button{flex:1;background:none;border:1px solid #383838;color:#d8d8d8;font-size:9px;letter-spacing:.14em;text-transform:uppercase;padding:9px 6px;cursor:pointer}
+.wc-card-actions button:hover{border-color:#666;color:#fff}
+.wc-card-use{background:linear-gradient(150deg,#f6f3ec,#b0adaa);color:#090909;border-color:transparent}
+.wc-card-use:hover{color:#090909}
+
+@media(max-width:700px){.wc-gallery{padding:22px 15px 48px}.wc-gallery-views{gap:14px}.wc-gallery-grid{grid-template-columns:1fr}}

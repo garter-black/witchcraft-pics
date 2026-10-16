@@ -1,0 +1,52 @@
+# Source-of-truth repo: SOURCE ONLY.
+# Plan sec.1 - dist/ is a build artifact, never committed, never hand-edited.
+dist/
+build/
+out/
+.next/
+node_modules/
+.wrangler/
+.output/
+
+# secrets - never in git. Names only; values are never read or printed.
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+!.env.example
+
+# noise
+*.log
+tsconfig.tsbuildinfo
+.DS_Store
+.idea/
+.vscode/
+dev/null
+
+# MEDIA NEVER IN GIT - plan sec.1: the media layer is R2 / object storage.
+# This repo holds the code and design; the bytes that render are object storage.
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.avif
+*.ico
+*.svg
+*.mp4
+*.webm
+*.mov
+*.mp3
+*.wav
+*.ogg
+*.m4a
+*.pdf
+*.psd
+*.ai
+*.flac
+*.aac
+*.opus
+*.glb
+*.gltf
+*.blend
+*.fbx

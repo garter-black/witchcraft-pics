@@ -1,0 +1,145 @@
+/* Witchcraft Prompt Totally Extra Exaggerator — a quiet, self-contained strip
+   that sits with the composer's other prompt tools. It never touches Generate. */
+
+.ohf-exag {
+  margin: 0 0 8px;
+  padding: 8px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  color: inherit;
+  font-size: 12.5px;
+}
+
+.ohf-exag-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.ohf-exag-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.ohf-exag-toggle input {
+  width: 14px;
+  height: 14px;
+  accent-color: #b48cff;
+}
+
+.ohf-exag-name {
+  letter-spacing: 0.01em;
+}
+
+.ohf-exag[data-on="true"] .ohf-exag-name {
+  color: #d9c7ff;
+}
+
+.ohf-exag-undo {
+  padding: 3px 9px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.ohf-exag-undo:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.ohf-exag-body {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ohf-exag-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.ohf-exag-field {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  opacity: 0.9;
+}
+
+.ohf-exag-field select {
+  padding: 3px 6px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.25);
+  color: inherit;
+  font: inherit;
+}
+
+.ohf-exag-preview,
+.ohf-exag-apply,
+.ohf-exag-discard {
+  padding: 5px 11px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.ohf-exag-preview:disabled,
+.ohf-exag-apply:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.ohf-exag-apply {
+  border-color: rgba(180, 140, 255, 0.5);
+  background: rgba(180, 140, 255, 0.16);
+}
+
+.ohf-exag-panel {
+  padding: 9px 10px;
+  border: 1px solid rgba(180, 140, 255, 0.28);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  max-height: 240px;
+  overflow: auto;
+}
+
+.ohf-exag-text {
+  margin: 0 0 8px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.45;
+}
+
+.ohf-exag-changes {
+  margin: 0 0 8px;
+  padding-left: 16px;
+  opacity: 0.8;
+}
+
+.ohf-exag-stale,
+.ohf-exag-error {
+  margin: 0 0 6px;
+  color: #ffb4b4;
+}
+
+.ohf-exag-stale {
+  color: #ffd79a;
+}
+
+.ohf-exag-actions {
+  display: flex;
+  gap: 8px;
+}
